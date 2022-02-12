@@ -3,9 +3,11 @@ let templates = {};
 
 let app_div = document.getElementById('app');
 
+let div = document.createElement('div');
+
+let link = document.createElement('a');
+
 function home() {
-    let div = document.createElement('div');
-    let link = document.createElement('a');
     link.href = '#/about';
     link.innerText = 'About';
 
@@ -16,8 +18,6 @@ function home() {
 };
 
 function about() {
-    let div = document.createElement('div');
-    let link = document.createElement('a');
     link.href = '#/';
     link.innerText = 'Home';
 
